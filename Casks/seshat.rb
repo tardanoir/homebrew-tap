@@ -14,22 +14,22 @@ cask "seshat" do
   on_macos do
     on_intel do
       url "https://github.com/tardanoir/seshat/releases/download/v#{version}/seshat_#{version}_darwin_amd64.tar.gz"
-      sha256 "42d72e6f2cc4ffd2f4d19380945fed5e567511a3f356c4d8f14fcfb5d89e91bd"
+      sha256 "3a175003472d08e13c969cfa2e74219efb4a41eee24254dfd9bee7f8c65c88d9"
     end
     on_arm do
       url "https://github.com/tardanoir/seshat/releases/download/v#{version}/seshat_#{version}_darwin_arm64.tar.gz"
-      sha256 "23495df2b8ddaba8bb3d6f27cb3920802ed9ea4187ac95771d185f9b8df74134"
+      sha256 "84230a3aa60191fa5eebfc812f2627bfb17dd2b66aaaf19cf9185c177e8dbddc"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/tardanoir/seshat/releases/download/v#{version}/seshat_#{version}_linux_amd64.tar.gz"
-      sha256 "56b77f9802091d2a3d5fd3fc6833c1e7eeff10227614983aa2fe082a6d126aad"
+      sha256 "760c2537e3d4e76c61dc550a556a2f48b36bc6b705abf54846d893e7b643ab3f"
     end
     on_arm do
       url "https://github.com/tardanoir/seshat/releases/download/v#{version}/seshat_#{version}_linux_arm64.tar.gz"
-      sha256 "ae9587c52415efed383a2837b16af774311e1de2dca3b5673a24e06b881faf61"
+      sha256 "96a2a2602040ecf2d5b41ba14b1e0ffc18ab2c712bba165a6542d00bfb6c8b8e"
     end
   end
 
