@@ -3,7 +3,7 @@ cask "seshat" do
   name "seshat"
   desc "A lightweight TUI SQL client for PostgreSQL"
   homepage "https://github.com/tardanoir/seshat"
-  version "0.5.2"
+  version "0.5.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "seshat" do
   on_macos do
     on_intel do
       url "https://github.com/tardanoir/seshat/releases/download/v#{version}/seshat_#{version}_darwin_amd64.tar.gz"
-      sha256 "98f625a1db84c30e232cef19bc003f32fdb573a5f7e9603c3ad85069a47f5a16"
+      sha256 "21be5bc4537933a3e3952dd5bde61200ec8afae00007bc4a661cba24b4d1ea42"
     end
     on_arm do
       url "https://github.com/tardanoir/seshat/releases/download/v#{version}/seshat_#{version}_darwin_arm64.tar.gz"
-      sha256 "1777abf3ca6133b112d1b3b4046f116df3a373fcd453029c30b269d57074d0dc"
+      sha256 "450d7c81227fad3ccd41646f40eb6c40f56d0ef8a0ee4c6bcefb5c0ce5203c8a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/tardanoir/seshat/releases/download/v#{version}/seshat_#{version}_linux_amd64.tar.gz"
-      sha256 "bc12a97750f5ac9417699676b21fa339b894d27e6fcb54c16f1e9717d3873586"
+      sha256 "b1257850b8529de6b5bbebad3bb80240108c4b17c9b71df41098d7f5d5bcb13e"
     end
     on_arm do
       url "https://github.com/tardanoir/seshat/releases/download/v#{version}/seshat_#{version}_linux_arm64.tar.gz"
-      sha256 "3c0228dd23e1096653e50917d06bbd277209fa997ff2b8529d655c3d6ac4cdb8"
+      sha256 "7f84dab8ea75f48b959f9ef2ab31a8372d0cf2266c98c0f972a4c3577c97342e"
     end
   end
 
